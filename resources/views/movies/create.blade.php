@@ -24,7 +24,7 @@
 
      <div class="form-group">
          <label for="year_of_filming">Year of filming</label>
-         <input type="text" name="year_of_filming" class="form-control" id="year_of_filming" aria-describedby="yearOfFilmingHelp" placeholder="Enter year of filming">
+         <input type="number" name="year_of_filming" class="form-control" id="year_of_filming" aria-describedby="yearOfFilmingHelp" placeholder="Enter year of filming">
      </div>
 
      <div class="form-group">

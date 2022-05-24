@@ -24,10 +24,10 @@ class CreateMovieRequest extends FormRequest
     public function rules()
     {
         return [
-            'title' => 'required|string|max: 150',
-            'director' => 'string',
-            'genre' => 'required|string',
-            'year_of_filming' => 'integer|',
+            'title' => 'required|string|max: 255',
+            'director' => 'required|string|max: 255',
+            'genre' => 'required|string|max: 255',
+            'year_of_filming' => 'integer|between: 1900, ' . now()->year,
             'storyline' => 'string|max: 1000'
 
         ];
