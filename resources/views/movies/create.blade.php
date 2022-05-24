@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
- @section('title', 'Add a movie')
+ @section('title', 'Create a movie')
 
  @section('content')
  <h1>Add a movie</h1>
@@ -22,11 +22,11 @@
          <input type="text" name="genre" class="form-control" id="genre" aria-describedby=genrelHelp" placeholder="Enter genre">
      </div>
 
-
      <div class="form-group">
-         <label for="year-of-filming">Year of filming</label>
+         <label for="year_of_filming">Year of filming</label>
          <input type="text" name="year_of_filming" class="form-control" id="year_of_filming" aria-describedby="yearOfFilmingHelp" placeholder="Enter year of filming">
      </div>
+
      <div class="form-group">
          <label for="storyline">Storyline</label>
          <textarea class="form-control" name="storyline" id="storyline" rows="5" placeholder="Write storyline..."></textarea>
